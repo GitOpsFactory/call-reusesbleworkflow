@@ -1,7 +1,6 @@
 name: Payment Service Deployment
 
 on:
-
   push:
     branches:
       - main
@@ -14,7 +13,7 @@ jobs:
 
   grand-central-deploy:
 
-    uses: GitOpsFactory/reusable-workflow/.github/workflows/aws-deploy.yml@v1.0.0
+    uses: GitOpsFactory/reuable-workflow/.github/workflows/aws-deploy.yml@v1.0.0
 
     with:
       aws-region: ap-south-1
