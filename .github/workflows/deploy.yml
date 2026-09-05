@@ -14,7 +14,7 @@ jobs:
 
   grand-central-deploy:
 
-    uses: Grand-Central/platform-workflows/.github/workflows/aws-deploy.yml@v1.0.0
+    uses: GitOpsFactory/reusable-workflow/.github/workflows/aws-deploy.yml@v1.0.0
 
     with:
       aws-region: ap-south-1
